@@ -49,8 +49,8 @@ To explain this behavior, we use activation patching to test whether LMs represe
 
 #### SelfIE
 To explore whether stronger associations beyond the race/color binary might be present, we applied [SelfIE](https://github.com/tonychenxyz/selfie)—an open-ended natural language interpretation method that translates internal embeddings into text.
-We found SelfIE interpretations fell into three categories: color, race, or nonsensical outputs (e.g., repeating the instruction)
-Consistent with our activation patching results, the aligned model produced 74.4% fewer race-related interpretations than the base model on implicit prompts. 
+- SelfIE interpretations fell into three categories: color, race, or nonsensical outputs (e.g., repeating the instruction)
+- Consistent with our activation patching results, the aligned model produced 74.4% fewer race-related interpretations than the base model on implicit prompts. 
 
 ### Causal Intevention: Strengthening Race Associations
 
