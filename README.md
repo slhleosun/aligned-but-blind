@@ -9,7 +9,7 @@ Anonymous Authors (under submission for ACL 2025)
 <sup>2</sup>Google,
 <sup>3</sup>Allen Institute for AI,
 <sup>4</sup>University of Washington
-<br>
+
 ---
 ### TL;DR: Language model alignment unintentionally amplifies implicit racial biases by reducing their sensitivity to race concepts—akin to race blindness in humans.  
 
