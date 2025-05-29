@@ -14,7 +14,7 @@ ACL 2025 (Main)
 ---
 ### TL;DR: Language model alignment unintentionally amplifies implicit racial biases by reducing their sensitivity to race concepts—akin to race blindness in humans.  
 
-![Figure1](figures/selfie.jpg)
+![Figure1](figures/selfie.pdf)
 
 ## Overview
 Although value-aligned language models (LMs) appear unbiased in explicit bias evaluations, they often exhibit stereotypes in implicit word association tasks, raising concerns about their fair usage. We investigate the mechanisms behind this discrepancy and find that alignment surprisingly amplifies implicit bias in model outputs. Specifically, we show that aligned LMs, unlike their unaligned counterparts, overlook racial concepts in early internal representations when the context is ambiguous. Not representing race likely fails to activate safety guardrails, leading to unintended biases. Inspired by this insight, we propose a new bias mitigation strategy that works by incentivizing the representation of racial concepts in the early model layers. In contrast to conventional mitigation methods of machine unlearning, our interventions find that steering the model to be \emph{more} aware of racial concepts effectively mitigates implicit bias. Similar to race blindness in humans, ignoring racial nuances can inadvertently perpetuate subtle biases in LMs.
