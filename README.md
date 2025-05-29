@@ -1,4 +1,4 @@
-## Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race
+# Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race
 [Lihao Sun](https://sites.google.com/uchicago.edu/lihao-sun)<sup>1</sup>,
 [Chengzhi Mao](https://www.cs.columbia.edu/~mcz/)<sup>2</sup>,
 [Valentin Hofmann](https://valentinhofmann.github.io/)<sup>3,4</sup>,
@@ -21,3 +21,15 @@ Although value-aligned language models (LMs) appear unbiased in explicit bias ev
 
 ### Using this directory
 Corresponding to our experiment structure, the directory is organized into three main components: behavioral (prompt suites + running models + results), mechanistic interpretability (SelfIE + activation patching), and intervention (activation engineering + LoRA). The SelfIE component requires code from [SelfIE codebase](https://github.com/tonychenxyz/selfie). The main experiments are undertaken with Llama 3 8B and 70B. All results are reproducible using deterministic generation. 
+
+### What we found
+#### Behavioral:
+
+
+#### Mechanistic Insights: Activation Patching
+
+
+#### Causal Intevertion: Activation Steering & LoRA Fine-tuning
+
+
+
