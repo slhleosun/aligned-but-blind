@@ -34,6 +34,9 @@ Corresponding to our experiment structure, the directory is organized into three
 #### Embedding Intervention via Steering
 
 #### Weight Intervention via LoRA Fine-tuning
+<br>
+Relevant files: /interventions/lora
+<br>
 
 
 
