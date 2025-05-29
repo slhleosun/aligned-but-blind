@@ -58,10 +58,12 @@ Consistent with our activation patching results, the aligned model produced 74.4
 
 #### Embedding Intervention via Steering
 > 📁 Relevant files: /interventions/activation_steering
+
 Injecting race-aware activations (from disambiguated prompts like “Race: black and white”) reduces implicit bias by 26–42%, especially when applied to early layers. 
 
 #### Weight Intervention via LoRA Fine-tuning
 > 📁 Relevant files: /interventions/lora
+
 We fine-tune models using LoRA on prompts where black/white are used ambiguously but labeled with racial meaning. 
 
 Targeted early-layer fine-tuning cuts implicit bias from 97.3% to 42.4% and also reduces explicit bias. 
