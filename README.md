@@ -9,7 +9,7 @@
 <sup>3</sup>Allen Institute for AI,
 <sup>4</sup>University of Washington
 
-ACL 2025 (Main)
+Published at ACL 2025 (Main Conference)
 
 ---
 ### TL;DR: Language model alignment unintentionally amplifies implicit racial biases by reducing their sensitivity to race concepts—akin to race blindness in humans.  
