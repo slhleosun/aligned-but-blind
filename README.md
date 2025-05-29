@@ -5,7 +5,7 @@
 [Xuechunzi Bai](https://www.xuechunzibai.com/)<sup>1</sup>
 
 <sup>1</sup>University of Chicago,
-<sup>2</sup>Google,
+<sup>2</sup>Rutgers University,
 <sup>3</sup>Allen Institute for AI,
 <sup>4</sup>University of Washington
 
