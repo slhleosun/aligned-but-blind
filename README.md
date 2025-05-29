@@ -25,15 +25,16 @@ Corresponding to our experiment structure, the directory is organized into three
 ## A quick glance at our findings
 ### Behavioral:
 > Relevant files: /behavioral
+![Figure2](figures/behavioral.jpg)
 
 ### Mechanistic Insights
 #### Activation Patching
 > Relevant files: /mech_interp/activation_patching
-
+![Figure3](figures/activation_patching.jpg)
 ### Causal Intevention
+![Figure4](figures/intervention.jpg)
 #### Embedding Intervention via Steering
 > Relevant files: /interventions/activation_steering
-
 #### Weight Intervention via LoRA Fine-tuning
 > Relevant files: /interventions/lora
 
