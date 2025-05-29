@@ -32,11 +32,10 @@ Corresponding to our experiment structure, the directory is organized into three
 
 ### Causal Intevention
 #### Embedding Intervention via Steering
+> Relevant files: /interventions/activation_steering
 
 #### Weight Intervention via LoRA Fine-tuning
-<br>
-Relevant files: /interventions/lora
-<br>
+> Relevant files: /interventions/lora
 
 
 
