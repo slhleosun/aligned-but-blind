@@ -25,16 +25,27 @@ Corresponding to our experiment structure, the directory is organized into three
 ## A quick glance at our findings
 ### Behavioral:
 > Relevant files: /behavioral
+
 ![Figure2](figures/behavioral.jpg)
+
+While alignment removes explicit bias, it amplifies implicit racial bias.
+- Aligned LMs score near 0% on explicit bias tests (e.g., Likert-scale stereotype agreement).
+- But the same models show 91.4% Black-negative associations in implicit tasks — compared to 64.1% in unaligned models.
+- We hypothesize this stems from a failure to represent race when context is ambiguous.
 
 ### Mechanistic Insights
 #### Activation Patching
 > Relevant files: /mech_interp/activation_patching
+
 ![Figure3](figures/activation_patching.jpg)
+
 ### Causal Intevention
 ![Figure4](figures/intervention.jpg)
+
 #### Embedding Intervention via Steering
 > Relevant files: /interventions/activation_steering
+
+
 #### Weight Intervention via LoRA Fine-tuning
 > Relevant files: /interventions/lora
 
