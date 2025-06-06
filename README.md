@@ -9,6 +9,8 @@
 <sup>3</sup>Allen Institute for AI,
 <sup>4</sup>University of Washington
 
+[Paper Link](https://arxiv.org/abs/2506.00253)
+
 Accepted to ACL 2025 Main Conference
 
 ---
@@ -29,8 +31,9 @@ Corresponding to our experiment structure, the directory is organized into three
 ![Figure2](figures/behavioral.jpg)
 
 We investigate racial bias in LMs—specifically, the tendency to associate black with negative words and white with positive ones. Bias is tested in two ways:
-- Explicit: Directly asking the model to agree/disagree with a given association.
-- Implicit: Prompting the model to associate black/white with positive or negative words. 
+- Explicit: Likert scale, asking whether the model agrees with a given association such as black is related to negative, white is related to positive.
+- Implicit: Word association, let the model freely pair black/white with positive/negative words.
+
 We evaluate both base and aligned models and find:
 
 *While alignment removes explicit bias, it amplifies implicit racial bias*—especially in ambiguous contexts where black and white can refer to either color or race:
