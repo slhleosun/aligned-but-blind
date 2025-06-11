@@ -10,7 +10,9 @@
 <sup>4</sup>University of Washington
 
 [Paper Link](https://arxiv.org/abs/2506.00253)
+
 [Project Webpage](https://slhleosun.github.io/aligned_but_blind/)
+
 Accepted to ACL 2025 Main Conference
 
 ---
