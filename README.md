@@ -1,5 +1,5 @@
 # Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race
-[Lihao Sun](https://sites.google.com/uchicago.edu/lihao-sun)<sup>1</sup>,
+[Lihao Sun](https://slhleosun.github.io/)<sup>1</sup>,
 [Chengzhi Mao](https://www.cs.columbia.edu/~mcz/)<sup>2</sup>,
 [Valentin Hofmann](https://valentinhofmann.github.io/)<sup>3,4</sup>,
 [Xuechunzi Bai](https://www.xuechunzibai.com/)<sup>1</sup>
